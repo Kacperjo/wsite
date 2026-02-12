@@ -1,0 +1,2 @@
+# wsite
+small site
