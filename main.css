@@ -10,7 +10,7 @@
 .border {
   background-color: lightgray;
   width: calc(100% - var(--odst));
-  height: 50dvh;
+  height: 40dvh;
   border: 5px solid;
   border-color: gray;
   border-radius: 2px;
