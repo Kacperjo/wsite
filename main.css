@@ -6,4 +6,6 @@
 }
 .border {
   background-color: lightgray;
+  width: 95%;
+  height: 50%;
 }
