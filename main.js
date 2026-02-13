@@ -13,7 +13,7 @@ function update() {
 
     x += speedX;
     y += speedY;
-    speedY += 0.0;
+    speedY += 0.1;
 
     // pobieramy rozmiary
     const borderWidth = border.clientWidth;
