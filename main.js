@@ -4,13 +4,14 @@ const border = document.getElementById("bor");
 let x = 0;
 let y = 0;
 
-let speedX = 1;
-let speedY = 1;
+let speedX = 3;
+let speedY = 0;
 
 function update() {
 
     x += speedX;
     y += speedY;
+    speedY += 0.1;
 
     // pobieramy rozmiary
     const borderWidth = border.clientWidth;
