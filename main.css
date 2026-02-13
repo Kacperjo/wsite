@@ -1,3 +1,6 @@
+:root {
+  --odst: 5px;
+}
 .ball {
   height: 20px;
   width: 20px;
@@ -6,7 +9,7 @@
 }
 .border {
   background-color: lightgray;
-  width: calc(100% - 5px);
+  width: calc(100% - var(--odst);
   height: 50dvh;
   border: 5px solid;
   border-color: gray;
