@@ -6,8 +6,8 @@
 }
 .border {
   background-color: lightgray;
-  width: 95%;
-  height: 50%;
+  width: 95vw;
+  height: 50dvh;
   border: 5px solid;
   border-color: gray;
   border-radius: 2px;
