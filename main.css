@@ -6,7 +6,7 @@
 }
 .border {
   background-color: lightgray;
-  width: 90vw;
+  width: calc(100% - 5px);
   height: 50dvh;
   border: 5px solid;
   border-color: gray;
