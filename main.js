@@ -7,6 +7,8 @@ let y = 5;
 let speedX = 3;
 let speedY = 1;
 
+let bounce = 0.7;
+
 function update() {
 
     x += speedX;
@@ -23,10 +25,14 @@ function update() {
         speedX *= -1;
     }
 
-    // kolizja góra/dół
-    if (y <= 0 || y + ballSize >= borderHeight) {
+    // kolizja góra
+    if (y <= 0) {
         speedY *= -1;
     }
+
+    if (y + ballSize >= borderHeight) {
+        speedY *= -bounce;
+    } 
 
     ball.style.transform = `translate(${x}px, ${y}px)`;
 
