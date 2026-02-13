@@ -9,7 +9,7 @@
 }
 .border {
   background-color: lightgray;
-  width: calc(100% - var(--odst);
+  width: calc(100% - var(--odst));
   height: 50dvh;
   border: 5px solid;
   border-color: gray;
