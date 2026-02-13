@@ -1,17 +1,17 @@
 const ball = document.getElementById("ba1");
 const border = document.getElementById("bor");
 
-let x = 0;
-let y = 0;
+let x = 5;
+let y = 5;
 
 let speedX = 3;
-let speedY = 0;
+let speedY = 1;
 
 function update() {
 
     x += speedX;
     y += speedY;
-    speedY += 0.1;
+    speedY += 0.0;
 
     // pobieramy rozmiary
     const borderWidth = border.clientWidth;
