@@ -22,22 +22,18 @@ function update() {
 
     // kolizja prawa/lewa
     if (x <= 0) {
-        x = 2;
         speedX *= -1;
     }
     if (x + ballSize >= borderWidth) {
-        x = ballSize + borderWidth - 2;
         speedX *= -1;
     }
 
     // kolizja góra
     if (y <= 0) {
-        y = 2;
         speedY *= -1;
     }
 
     if (y + ballSize >= borderHeight) {
-        y = ballSize + borderHright - 2;
         speedY *= -bounce;
     } 
 
